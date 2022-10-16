@@ -17,10 +17,9 @@ namespace AP_Lab_04_2
 
             string[] varArray = Console.ReadLine().Split(';');
 
-            int dx = int.Parse(varArray[2].Replace('.', ','));
-
             double xp = Double.Parse(varArray[0].Replace('.', ',')),
                 xk = Double.Parse(varArray[1].Replace('.', ',')),
+                dx = Double.Parse(varArray[2].Replace('.', ',')),
                 y;
 
             // Виведення "шапки" таблиці
